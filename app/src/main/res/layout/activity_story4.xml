@@ -17,7 +17,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:text="@string/page0_choice2"/>
+        tools:text="@string/page3_choice2"/>
 
     <Button
         android:id="@+id/choice1Button"
@@ -29,7 +29,7 @@
         app:layout_constraintBottom_toTopOf="@+id/choice2Button"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:text="@string/page0_choice1"/>
+        tools:text="@string/page3_choice1"/>
 
     <ScrollView
         android:layout_width="0dp"
@@ -64,12 +64,12 @@
             android:orientation="vertical">
 
             <ImageView
-                android:contentDescription="@string/story_content_description"
                 android:id="@+id/storyImageView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:scaleType="fitXY"
+                app:srcCompat="@drawable/page3"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp"
                 tools:src="@drawable/page0"/>
@@ -83,9 +83,7 @@
                 android:layout_marginRight="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:lineSpacingExtra="8sp"
-                android:textSize="15sp"
-                tools:text="@string/page0"/>
+                tools:text="@string/page3"/>
 
         </LinearLayout>
     </ScrollView>
